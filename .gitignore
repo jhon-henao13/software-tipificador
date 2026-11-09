@@ -1,0 +1,34 @@
+# ==========================================
+# Python & PyInstaller
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.spec
+
+# Entornos virtuales locales
+venv_tipificador/
+venv/
+env/
+.env
+
+# ==========================================
+# Archivos de Datos, Pruebas y Modelos Locales
+# ==========================================
+# Ignorar archivos PDF de prueba, imágenes sueltas y reportes generados
+*.pdf
+*.png
+*.jpg
+*.txt
+
+# Excepción: Mantener opcionalmente el archivo de idioma entrenado de Tesseract si es necesario (o descomentar si prefieres ignorarlo)
+# !spa.traineddata
+
+# ==========================================
+# Sistema Operativo
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
